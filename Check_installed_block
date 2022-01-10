@@ -1,5 +1,9 @@
 #!/bin/bash
-if [ -f /root/block_torrent.sh ]
+
+if [ -f /root/block.sh ]
+
 then
-rm /root/block_torrent.sh
+
+rm /root/block.sh
+
 fi
