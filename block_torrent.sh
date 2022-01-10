@@ -47,8 +47,9 @@ iptables -A INPUT -s thepiratebay.co.com -j DROP
 iptables -A INPUT -s pirateproxy-bay.com -j DROP
 iptables -A INPUT -s pirate-bay-proxy.org -j DROP
 iptables -A INPUT -s torrentdownloads.mrunblock.xyz -j DROP
- echo "" 
- echo "PRONTO!" 
+echo -e "\033[1;31m════════════════════════════════════════════════════\033[0m"
+tput setaf 7 ; tput setab 4 ; tput bold ; printf '%40s%s%-12s\n' "PRONTO!" ; tput sgr0
+echo -e "\033[1;31m════════════════════════════════════════════════════\033[0m"
 	echo "Sites que foram bloqueados:"
 	echo " "
 echo "        yts.mx
