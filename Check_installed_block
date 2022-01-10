@@ -1,11 +1,5 @@
 #!/bin/bash
-
 if [ -f /root/block.sh ]
-
 then
-
-echo “Arquivo Encontrado”
 rm /root/block.sh
-echo "arquivo removido"
-sleep 5s
 fi
