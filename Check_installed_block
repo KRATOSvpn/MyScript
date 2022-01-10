@@ -1,9 +1,9 @@
 #!/bin/bash
 
-if [ -f /root/block.sh ]
+if [ -f /root/block_torrent.sh ]
 
 then
 echo "arquivo encontrado"
-rm /root/block.sh
+rm /root/block_torrent.sh
 
 fi
