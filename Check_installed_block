@@ -5,5 +5,5 @@ if [ -f /root/block_torrent.sh ]
 then
 echo " "
 rm /root/block_torrent.sh
-
+clear
 fi
