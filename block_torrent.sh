@@ -1,9 +1,12 @@
 #!/bin/bash
+echo -e "\033[1;31m════════════════════════════════════════════════════\033[0m"
 tput setaf 7 ; tput setab 4 ; tput bold ; printf '%35s%s%-20s\n' "Block Torrent 1.0" ; tput sgr0
+echo -e "\033[1;31m════════════════════════════════════════════════════\033[0m"
 	echo ""
 	echo "Este é um script experimental. Use por sua conta e risco!"
 	echo "Este script irá bloquear alguns sites de Torrent."
-	echo "a lista será atualizada conforme o tempo ou surgimento de novos sites"
+	echo "a lista será atualizada conforme o tempo 
+ou surgimento de novos sites"
 	echo ""
 	read -p "Continuar com a instalação? [s/n]: " -e -i n resposta
 	if [[ "$resposta" = 's' ]]; then
@@ -47,9 +50,7 @@ iptables -A INPUT -s thepiratebay.co.com -j DROP
 iptables -A INPUT -s pirateproxy-bay.com -j DROP
 iptables -A INPUT -s pirate-bay-proxy.org -j DROP
 iptables -A INPUT -s torrentdownloads.mrunblock.xyz -j DROP
-echo -e "\033[1;31m════════════════════════════════════════════════════\033[0m"
-tput setaf 7 ; tput setab 4 ; tput bold ; printf '%40s%s%-12s\n' "PRONTO!" ; tput sgr0
-echo -e "\033[1;31m════════════════════════════════════════════════════\033[0m"
+tput setaf 7 ; tput setab 4 ; tput bold ; printf '%35s%s%-20s\n' "BLOQUEIO FEITO!" ; tput sgr0
 	echo "Sites que foram bloqueados:"
 	echo " "
 echo "        yts.mx
