@@ -3,7 +3,7 @@
 if [ -f /root/block_torrent.sh ]
 
 then
-echo "arquivo encontrado"
+echo " "
 rm /root/block_torrent.sh
 
 fi
