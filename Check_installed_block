@@ -3,7 +3,7 @@
 if [ -f /root/block.sh ]
 
 then
-echo " "
+echo "arquivo encontrado"
 rm /root/block.sh
 
 fi
