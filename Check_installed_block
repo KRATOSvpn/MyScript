@@ -7,5 +7,5 @@ then
 echo “Arquivo Encontrado”
 rm /root/block.sh
 echo "arquivo removido"
-
+sleep 5s
 fi
