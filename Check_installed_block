@@ -3,7 +3,7 @@
 if [ -f /root/block.sh ]
 
 then
-
+echo " "
 rm /root/block.sh
 
 fi
