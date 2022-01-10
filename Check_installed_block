@@ -1,9 +1,17 @@
 #!/bin/bash
-
+#v2
 if [ -f /root/block_torrent.sh ]
 
 then
 echo " "
 rm /root/block_torrent.sh
+clear
+fi
+
+if [ -f /root/lista_torrent.sh ]
+
+then
+echo " "
+rm /root/lista_torrent.sh
 clear
 fi
