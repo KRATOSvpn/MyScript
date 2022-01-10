@@ -1,18 +1,18 @@
 #!/bin/bash
 clear
 echo -e "\033[1;31m════════════════════════════════════════════════════\033[0m"
-tput setaf 7 ; tput setab 4 ; tput bold ; tput smul ; printf '%35s%s%-20s\n' "Block Torrent 1.0" ; tput sgr0
+tput setaf 7 ; tput setab 4 ; tput bold ; printf '%33s%s%-20s\n' "Block Torrent 1.0" ; tput sgr0
 echo -e "\033[1;31m════════════════════════════════════════════════════\033[0m"
 	echo ""
 	echo "Este é um script experimental. Use por sua conta e risco!"
 	echo "Este script irá bloquear alguns sites de Torrent."
-	echo "a lista será atualizada conforme o tempo 
+	echo "A lista será atualizada conforme o tempo 
 ou surgimento de novos sites"
 	echo ""
 	read -p "Continuar com a instalação? [s/n]: " -e -i n resposta
 	if [[ "$resposta" = 's' ]]; then
 clear
- echo "Iniciando bloqueio" 
+ echo "Iniciando Bloqueio" 
  echo "" 
 	echo "" >> iptables -A INPUT -s yts.mx -j DROP
 iptables -A INPUT -s yts.rs -j DROP
